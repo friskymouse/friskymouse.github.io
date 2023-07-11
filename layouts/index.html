@@ -11,7 +11,7 @@
         role="button">{{ i18n "get-started" }}</a>
       <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON
           "/package.json" }}{{ $data.version }}</a></p>
-      {{ $asset := resources.Get "/images/highlighter.png" }}
+      {{ $asset := resources.Get "images/highlighter.png" }}
       {{ $img := $asset.Fit "850x540" }}
       <figure class="image is-3by2">
         <img alt="Yellow Duck" src="{{ $img.RelPermalink }}" />
