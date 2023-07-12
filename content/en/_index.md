@@ -1,9 +1,9 @@
 ---
-title : "Modern Documentation Theme"
-description: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
-lead: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
-date: 2020-10-06T08:47:36+00:00
-lastmod: 2020-10-06T08:47:36+00:00
+title : "FriskyMouse — Your Presentation Companion!"
+description: "FriskyMouse is...."
+lead: "FriskyMouse is...."
+date: 7/11/2023, 10:32:51 AM 
+lastmod: 7/11/2023, 10:33:01 AM 
 draft: false
-images: []
+images: [highlighter.png]
 ---
