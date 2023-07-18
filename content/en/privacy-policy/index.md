@@ -23,7 +23,8 @@ __FriskyMouse__ saves its settings locally to a file on your computer. It does n
 __FriskyMouse__ checks for updates at startup, and between intervals using GitHub API. FriskyMouse might download the updates from GitHub when the user permits it.
 
 __FriskyMouse__ implements GitHub API Services to support detecting new updates. You may wish to read the Privacy Policy of third-party services we currently use:
-- [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)
+
+- [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
 ## Links to Other Websites
 
