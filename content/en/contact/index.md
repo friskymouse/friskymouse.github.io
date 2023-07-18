@@ -1,10 +1,10 @@
 ---
 title: "Contact"
-description: "Drop us an email."
-date: 2020-08-27T19:25:12+02:00
-lastmod: 2020-08-27T19:25:12+02:00
-draft: true
+description: "Drop us a message."
+date: 2023-07-17 21:37:40
+lastmod: 2023-07-17 21:37:46
+draft: false
 images: []
 ---
 
-{{< email user="hello" domain="getdoks.org" >}}
+You can drop us a message on [GitHub Discussion](https://github.com/friskymouse/frisky-mouse/discussions).

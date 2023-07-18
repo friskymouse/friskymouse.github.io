@@ -45,6 +45,10 @@
   weight = 20
 
 # [[main]]
+#   name = "Privacy"
+#   url = "/privacy-policy/"
+#   weight = 20
+# [[main]]
 #   name = "Get Started"
 #   weight = 30
 #   identifier = "get-started"
@@ -77,7 +81,7 @@
 #   url = "https://twitter.com/getdoks"
 #   weight = 20
 
-# [[footer]]
-#   name = "Privacy"
-#   url = "/privacy-policy/"
-#   weight = 10
+[[footer]]
+  name = "Privacy"
+  url = "/privacy-policy/"
+  weight = 10
