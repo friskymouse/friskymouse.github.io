@@ -18,7 +18,7 @@ This Privacy Policy describes our policies and procedures regarding the collecti
 
 __FriskyMouse__ does not collect any data of any kind, including personally identifiable information.
 
-__FriskyMouse__ saves its settings locally to a file on your computer. It does not upload any kind of data to any server. 
+__FriskyMouse__ saves its settings locally to a file on your computer. It does not upload any kind of data to any server.
 
 __FriskyMouse__ checks for updates at startup, and between intervals using GitHub API. FriskyMouse might download the updates from GitHub when the user permits it.
 
