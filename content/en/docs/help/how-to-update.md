@@ -1,7 +1,7 @@
 ---
 title: "How to Update"
-description: "Regularly update the installed npm packages to keep your Doks website stable, usable, and secure."
-lead: "Regularly update the installed npm packages to keep your Doks website stable, usable, and secure."
+description: "Regularly update the installed app to keep your installation up to date with latest features and bug fixes."
+lead: "Regularly update the installed FriskyMouse application to get the latest features and bug fixes."
 date: 2020-11-12T13:26:54+01:00
 lastmod: 2020-11-12T13:26:54+01:00
 draft: false
@@ -13,20 +13,6 @@ weight: 610
 toc: true
 ---
 
-{{< alert icon="💡" text="Learn more about <a href=\"https://docs.npmjs.com/about-semantic-versioning\">semantic versioning</a> and <a href=\"https://docs.npmjs.com/cli/v6/using-npm/semver#advanced-range-syntax\">advanced range syntax</a>." />}}
-
-## Check for outdated packages
-
-The [`npm outdated`](https://docs.npmjs.com/cli/v7/commands/npm-outdated) command will check the registry to see if any (or, specific) installed packages are currently outdated:
-
-```bash
-npm outdated [[<@scope>/]<pkg> ...]
-```
-
-## Update packages
-
-The [`npm update`](https://docs.npmjs.com/cli/v7/commands/npm-update) command will update all the packages listed to the latest version (specified by the tag config), respecting semver:
-
-```bash
-npm update [<pkg>...]
-```
+- If you are using the portable version, please check FriskyMouse's Website for new versions.
+- If you installed FriskyMouse through Microsoft Store, make sure you `App updates` is turned ON. This will install latest updates automatically.
+  
