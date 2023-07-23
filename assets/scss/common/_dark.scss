@@ -45,16 +45,17 @@ $button-download-color-dark: $yellow;
 
 [data-dark-mode] body .btn-info {
   @include button-variant($button-download-color-dark, $button-color-dark);
-  /*   color: bg-warnsing !important; */
 }
 
 [data-dark-mode] body .btn-success {
   @include button-variant($button-download-color-dark, $button-color-dark);
+
   color: $body-bg-dark !important;
 }
 
 [data-dark-mode] body .btn-outline-primary {
   @include button-outline-variant($button-color-dark, $button-color-dark);
+
   color: $link-color-dark;
 }
 
@@ -66,7 +67,7 @@ $button-download-color-dark: $yellow;
   color: $navbar-dark-color;
 }
 
-[data-dark-mode] body .show>.btn-doks-light,
+[data-dark-mode] body .show > .btn-doks-light,
 [data-dark-mode] body .btn-doks-light:hover,
 [data-dark-mode] body .btn-doks-light:active {
   color: $link-color-dark;
@@ -136,8 +137,8 @@ $button-download-color-dark: $yellow;
   color: $navbar-dark-disabled-color;
 }
 
-[data-dark-mode] body .navbar-light .navbar-nav .show>.nav-link,
-[data-dark-mode] body .navbar-light .navbar-nav .active>.nav-link,
+[data-dark-mode] body .navbar-light .navbar-nav .show > .nav-link,
+[data-dark-mode] body .navbar-light .navbar-nav .active > .nav-link,
 [data-dark-mode] body .navbar-light .navbar-nav .nav-link.show,
 [data-dark-mode] body .navbar-light .navbar-nav .nav-link.active {
   color: $navbar-dark-active-color;
@@ -574,7 +575,7 @@ $button-download-color-dark: $yellow;
   background: $body-overlay-dark;
 }
 
-[data-dark-mode] details[open]>summary {
+[data-dark-mode] details[open] > summary {
   border-bottom: 1px solid $border-dark;
 }
 
@@ -596,8 +597,3 @@ $button-download-color-dark: $yellow;
   background: whitesmoke;
   color: black;
 }
-
-/* [data-dark-mode] ul.dropdown-menu li a {
-  background: whitesmoke;
-  color: black;
-} */
