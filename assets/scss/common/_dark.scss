@@ -1,5 +1,4 @@
 /** Theme variables */
-
 // Source: https://material.io/design/color/dark-theme.html
 
 $body-bg-dark: $gray-900;
@@ -8,6 +7,7 @@ $body-overlay-dark: darken($body-bg-dark, 2.5%);
 /*
 $border-dark: darken($body-bg-dark, 2.5%);
 */
+
 $border-dark: $gray-800;
 $body-color-dark: $gray-300;
 $dots-dark: darken($body-color-dark, 50%);
@@ -42,9 +42,10 @@ $button-download-color-dark: $yellow;
 
   color: $body-bg-dark !important;
 }
+
 [data-dark-mode] body .btn-info {
   @include button-variant($button-download-color-dark, $button-color-dark);
-/*   color: bg-warnsing !important; */
+  /*   color: bg-warnsing !important; */
 }
 
 [data-dark-mode] body .btn-success {
@@ -54,7 +55,6 @@ $button-download-color-dark: $yellow;
 
 [data-dark-mode] body .btn-outline-primary {
   @include button-outline-variant($button-color-dark, $button-color-dark);
-
   color: $link-color-dark;
 }
 
@@ -594,10 +594,10 @@ $button-download-color-dark: $yellow;
 
 [data-dark-mode] ul.dropdown-menu {
   background: whitesmoke;
-  color: black; 
-}
-
-[data-dark-mode] ul.dropdown-menu li a {
-  background: whitesmoke;
   color: black;
 }
+
+/* [data-dark-mode] ul.dropdown-menu li a {
+  background: whitesmoke;
+  color: black;
+} */
