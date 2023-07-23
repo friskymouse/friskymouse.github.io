@@ -40,7 +40,7 @@ The ripple animation can progress in three different ways:
 
 The speed of the animation is the rate at which the ripple drawing is rendered. It can be increased if you prefer a fast animation, or decreased if you prefer otherwise.
 
-💡 __NOTE__: The speed of the animation __should be adjusted__ according to the selected easing function. For the ripple to be rendered properly, some easing functions require you to increase or decrease the animation speed.
+ℹ __NOTE__: The speed of the animation __should be adjusted__ according to the selected easing function. For the ripple to be rendered properly, some easing functions require you to increase or decrease the animation speed.
 
 {{< alert icon="💡" text="The settings are automatically saved, loaded, and applied upon launching FriskyMouse." />}}
 

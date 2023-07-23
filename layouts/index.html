@@ -2,26 +2,73 @@
 <section class="section container-fluid mt-n3 pb-3">
   <div class="row justify-content-center">
     <div class="col-lg-12 text-center">
-      <h1 class="mt-0">{{ .Title }}</h1>
+      <!-- <img class="d-block mx-auto mb-3 masthead-brand" src="/images/fm-logo.png" alt="FriskyMouse logo" width="auto" height="75px"> -->
+      <h1 class="mt-0">        
+        Your Presentation Companion!</h1>
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
-      <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2"
-        href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/"
-        role="button">{{ i18n "get-started" }}</a>
-      <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON
-          "/package.json" }}{{ $data.version }}</a></p>
-      {{ $asset := resources.Get "images/highlighter.png" }}
-      {{ $img := $asset.Fit "850x540" }}
-      <figure class="image is-3by2">
-        <img alt="Yellow Duck" src="{{ $img.RelPermalink }}" />
-      </figure>
-    </div>
+      <!-- <p class="lead">{{ .Params.lead | safeHTML }}</p> -->
+      <p class="lead">Highlight your mouse cursor and decorate your mouse clicks.</p>
 
+      <div class="btn-group">
+        <button class="btn btn-info btn-lg px-4 mb-2 dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          aria-expanded="true" style="width: 12rem; height: 3.5rem">
+          <img alt="Download FriskyMouse for Windows 10" style="margin-bottom: 3%;margin-right: 3%" class="align"
+            src="/images/windows10-logo.webp" width="24px" height="auto" />
+          Download
+        </button>
+        <ul class="dropdown-menu">
+          <li style="width: 12rem; height: 1.3rem; display: flex; margin-bottom: 3%">
+            <div style="flex:0.15; padding-left: 5.5%">
+              <img alt="FriskyMouse Microsoft Store download" width="24px" height="24px"
+                src="/images/microsoft-store-icon.webp" />
+            </div>
+            <a href="https://apps.microsoft.com/store/detail/friskymouse/9NDWJST4VTQR" style="flex:0.85"
+              class="btn-secondary" target="_blank">Microsoft Store</a>
+          </li>
+          <hr class="solid">
+          <li style="width: 12rem; height: 1.3rem; display: flex; margin-top: 3%">
+            <div style="flex:0.15; padding-left: 5.5%;">
+              <img alt="FriskyMouse Appx download" width="24px" height="24px"
+                src="/images/windows-installer-icon.webp" />
+            </div>
+            <a href="#" style="flex:0.85" class="btn-secondary">Appx Installer</a>
+          </li>
+          <hr class="solid">
+          <li style="width: 12rem; height: 1.3rem; display: flex; margin-top: 3%">
+            <div style="flex:0.15; padding-left: 5.5%;">
+              <img alt="FriskyMouse EXE download" width="24px" height="24px"
+                src="/images/windows-installer-icon.webp" />
+            </div>
+            <a href="#" style="flex:0.85" class="btn-secondary">EXE Installer</a>
+          </li>
+          <hr class="solid">
+          <li style="width: 12rem; height: 1.3rem; display: flex; margin-top: 3%">
+            <div style="flex:0.15; padding-left: 5.5%;">
+              <img alt="FriskyMouse Portable download" width="24px" height="24px"
+                src="/images/windows-installer-icon.webp" />
+            </div>
+            <a href="#" style="flex:0.85" class="btn-secondary">Portable</a>
+          </li>
+        </ul>
+      </div>
+      &nbsp;&nbsp;&nbsp;
+      <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/"
+        role="button">
+        <button class="btn btn-primary btn-lg px-4 mb-2" style="width: 12rem; height: 3.5rem">
+          {{ i18n "get-started" }}
+        </button>
+      </a>
+      <p class="meta">Open-source MIT Licensed. <a href="https://github.com/friskymouse/frisky-mouse" target="_blank">GitHub v.0.1.2</a></p>
+    </div>
   </div>
 </section>
+<div class="px-4 pt-25 my-1 text-center border-bottom container px-5 overflow-hidden"
+  style="max-height: 50vh;">
+  <img src="/images/highlighter.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700"
+    height="500" loading="lazy">
+</div>
 {{ end }}
-
 {{ define "sidebar-prefooter" }}
 {{ if eq $.Site.Language.LanguageName "English" }}
 <section class="section section-sm">

@@ -25,8 +25,7 @@ toc: true
 ### Adding an Outline
 
 - To add an outline, enable the `Show Outline` switch.
-
-{{< alert icon="💡" text="You can change the outline's color and thickness value. The default border style is set to solid. However, you can choose one from the available styles." />}}
+- You can change the outline's color and thickness value. The default border style is set to solid. However, you can choose one from the available styles.
 
 ![Alt Adding an outline](/images/docs/highlighter-outline.gif)
 
