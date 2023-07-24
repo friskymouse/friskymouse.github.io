@@ -1,17 +1,28 @@
 {{ define "main" }}
+<style>
+  .filter-green {
+    filter: invert(20%) sepia(95%) saturate(4128%) hue-rotate(327deg) brightness(89%) contrast(101%);
+  }
+
+  .filter-easings {
+    filter: invert(17%) sepia(92%) saturate(2713%) hue-rotate(213deg) brightness(85%) contrast(95%);
+  }
+</style>
 <section class="section container-fluid mt-n3 pb-3">
   <div class="row justify-content-center">
     <div class="col-lg-12 text-center">
-      <img class="d-block mx-auto mb-1 masthead-brand" src="/images/fm-logo.png" alt="FriskyMouse logo" width="auto" height="95px">
-      <h1 class="mt-0">        
-        Your Presentation Companion!</h1>
+      <!-- <img class="d-block mx-auto mb-1 masthead-brand" src="/images/fm-logo.png" alt="FriskyMouse logo" width="auto"
+        height="95px"> -->
+      <h1 class="mt-0" style="font-size: 100px;">
+        FriskyMouse</h1>
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <!-- <p class="lead">{{ .Params.lead | safeHTML }}</p> -->
-      <p class="lead">Highlight your mouse cursor and decorate your mouse clicks.</p>
+      <p class="lead" style="margin: 10px 0px 30px; font-size: 25px; font-weight: 300;">Highlight your mouse cursor and
+        decorate your mouse clicks.</p>
 
       <div class="btn-group">
-        <button class="btn btn-info btn-lg px-4 mb-2 dropdown-toggle" type="button" data-bs-toggle="dropdown"
+        <button class="btn btn-info btn-lg px-4 mb-2 shadow-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
           aria-expanded="true" style="width: 12rem; height: 3.5rem">
           <img alt="Download FriskyMouse for Windows 10" style="margin-bottom: 3%;margin-right: 3%" class="align"
             src="/images/windows10-logo.webp" width="24px" height="auto" />
@@ -23,8 +34,9 @@
               <img alt="FriskyMouse Microsoft Store download" width="24px" height="24px"
                 src="/images/microsoft-store-icon.webp" />
             </div>
+            &nbsp;
             <a href="https://apps.microsoft.com/store/detail/friskymouse/9NDWJST4VTQR" style="flex:0.85"
-              class="btn-secondary" target="_blank">Microsoft Store</a>
+              class="btn-secondary dark-link" target="_blank">Microsoft Store</a>
           </li>
           <hr class="solid">
           <li style="width: 12rem; height: 1.3rem; display: flex; margin-top: 3%">
@@ -32,7 +44,7 @@
               <img alt="FriskyMouse Appx download" width="24px" height="24px"
                 src="/images/windows-installer-icon.webp" />
             </div>
-            <a href="#" style="flex:0.85" class="btn-secondary">Appx Installer</a>
+            <a href="#" style="flex:0.85" class="btn-secondary dark-link">Appx Installer</a>
           </li>
           <hr class="solid">
           <li style="width: 12rem; height: 1.3rem; display: flex; margin-top: 3%">
@@ -40,7 +52,7 @@
               <img alt="FriskyMouse EXE download" width="24px" height="24px"
                 src="/images/windows-installer-icon.webp" />
             </div>
-            <a href="#" style="flex:0.85" class="btn-secondary">EXE Installer</a>
+            <a href="#" style="flex:0.85" class="btn-secondary dark-link">EXE Installer</a>
           </li>
           <hr class="solid">
           <li style="width: 12rem; height: 1.3rem; display: flex; margin-top: 3%">
@@ -48,7 +60,7 @@
               <img alt="FriskyMouse Portable download" width="24px" height="24px"
                 src="/images/windows-installer-icon.webp" />
             </div>
-            <a href="#" style="flex:0.85" class="btn-secondary">Portable</a>
+            <a href="#" style="flex:0.85" class="btn-secondary dark-link">Portable</a>
           </li>
         </ul>
       </div>
@@ -56,15 +68,17 @@
       <a href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/"
         role="button">
         <button class="btn btn-primary btn-lg px-4 mb-2" style="width: 12rem; height: 3.5rem">
+          <img alt="Download FriskyMouse for Windows 10" style="margin-bottom: 3%;margin-right: 3%" class="filter-white"
+            src="/icons/documentation.svg" width="24px" height="auto" />
           {{ i18n "get-started" }}
         </button>
       </a>
-      <p class="meta">Open-source MIT Licensed. <a href="https://github.com/friskymouse/frisky-mouse" target="_blank">GitHub v.0.1.2</a></p>
+      <p class="meta">Open-source MIT Licensed. <a href="https://github.com/friskymouse/frisky-mouse"
+          target="_blank">GitHub v.0.1.2</a></p>
     </div>
   </div>
 </section>
-<div class="px-4 pt-25 my-1 text-center border-bottom container px-5 overflow-hidden"
-  style="max-height: 50vh;">
+<div class="px-4 pt-25 my-1 text-center border-bottom container px-5 overflow-hidden" style="max-height: 48vh;">
   <img src="/images/highlighter.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700"
     height="500" loading="lazy">
 </div>
@@ -72,41 +86,50 @@
 {{ define "sidebar-prefooter" }}
 {{ if eq $.Site.Language.LanguageName "English" }}
 <section class="section section-sm">
-  <!-- <div class="container">
+  <div class="container">
     <div class="row justify-content-center text-center">
-      <div class="col-lg-5">
-        <h2 class="h4">Security aware</h2>
-        <p>Get A+ scores on <a href="https://observatory.mozilla.org/analyze/doks.netlify.app">Mozilla Observatory</a>
-          out of the box. Easily change the default Security Headers to suit your needs.</p>
+      <div class="col-lg-5 shadow-lg">
+        <h2 class="h4">
+          <!-- <img src="/icons/wireless-mouse.svg" width="45" height="45" alt="My Happy SVG" /> -->
+          <img src="/icons/mouse-click.svg" width="45" height="45" alt="Mouse highlighter" class="filter-green" />
+          Mouse Highlighter
+        </h2>
+        <p>
+          Highly customizable highlighter. Choose your spotlight color, outline style, shadow, and more.
+        </p>
       </div>
       <div class="col-lg-5">
-        <h2 class="h4">Fast by default ⚡️</h2>
-        <p>Get 100 scores on <a
-            href="https://googlechrome.github.io/lighthouse/viewer/?gist=59aafe464a68f8bc30b8e9a636d5b053">Google
-            Lighthouse</a> by default. Doks removes unused css, prefetches links, and lazy loads images.</p>
+        <h2 class="h4">
+          <img src="/icons/mouse-ripple.svg" width="45" height="45" alt="Click Indicator" />
+          Clicks Indicator
+        </h2>
+        <p class="justify-content-left">
+          A diverse set of ripples for decorating left and right clicks, including animated and static drawings.
+        </p>
       </div>
-      <div class="col-lg-5">
-        <h2 class="h4">SEO-ready</h2>
-        <p>Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings
-          to your liking.</p>
+      <div class="col-lg-5 shadow-lg">
+        <h2 class="h4">
+          <img src="/icons/animated-spinner.svg" width="45" height="45" alt="Ripple Effects" />
+          Ripple Effects
+        </h2>
+        <p>
+          Three-way ripple animation that grow inward, outward, or inward-outward, enabling a unique rendering
+          experience.
+        </p>
       </div>
     </div>
     <div class="row justify-content-center text-center">
-      <div class="col-lg-5">
-        <h2 class="h4">Full text search</h2>
-        <p>Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.</p>
-      </div>
-      <div class="col-lg-5">
-        <h2 class="h4">Page layouts</h2>
-        <p>Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit
-          your needs.</p>
-      </div>
-      <div class="col-lg-5">
-        <h2 class="h4">Dark mode</h2>
-        <p>Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.</p>
-      </div>
+      <div class="col-lg-5 shadow-lg">
+        <h2 class="h4">
+          <img src="/icons/easing-functions.svg" width="45" height="45" alt="Easing functions" class="filter-easings" />
+          Easing Functions
+        </h2>
+        <p>
+          31 easing functions, making FriskyMouse's ripple effects stand out.
+        </p>
+      </div>      
     </div>
-  </div> -->
+  </div>
 </section>
 {{ end }}
 {{ end }}

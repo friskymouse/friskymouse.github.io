@@ -542,6 +542,7 @@ $button-download-color-dark: $yellow;
 
 [data-dark-mode] .dropdown-menu {
   background: $body-overlay-dark;
+  color: black;
 }
 
 [data-dark-mode] .dropdown-menu .dropdown-item {
@@ -595,5 +596,9 @@ $button-download-color-dark: $yellow;
 
 [data-dark-mode] ul.dropdown-menu {
   background: whitesmoke;
+  color: black;
+}
+
+[data-dark-mode] .dark-link {
   color: black;
 }
