@@ -1,9 +1,9 @@
 ---
 title: "Introduction"
-description: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
-lead: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
-date: 2020-10-06T08:48:57+00:00
-lastmod: 2020-10-06T08:48:57+00:00
+description: "FriskyMouse is an open-source utility app for Windows that provides mouse cursor highlighter and click indicators as features."
+lead: "Doks ."
+date: 2023-07-24 18:54:29
+lastmod: 2023-07-24 18:54:35
 draft: false
 images: []
 menu:
@@ -17,17 +17,9 @@ toc: true
 
 There are two main ways to get started with Doks:
 
-### Tutorial
+### How to Install
 
-{{< alert icon="👉" text="The Tutorial is intended for novice to intermediate users." />}}
-
-Step-by-step instructions on how to start a new Doks project. [Tutorial →](https://getdoks.org/tutorial/introduction/)
-
-### Quick Start
-
-{{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." />}}
-
-One page summary of how to start a new Doks project. [Quick Start →]({{< relref "quick-start" >}})
+Further information on how to installing FriskyMouse.  [How to Install →]({{< relref "Installing" >}})
 
 ## Go further
 
@@ -51,8 +43,8 @@ See what others have build with Doks. [Showcase →](https://getdoks.org/showcas
 
 ## Contributing
 
-Find out how to contribute to Doks. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
+Find out how to contribute to FriskyMouse. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
 
 ## Help
 
-Get help on Doks. [Help →]({{< relref "how-to-update" >}})
+Get help on FriskyMouse. [Help →]({{< relref "faq" >}})
