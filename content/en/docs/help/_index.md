@@ -1,10 +1,10 @@
 ---
 title: "Help"
-description: "Help Doks."
+description: "Get help with FriskyMouse."
 lead: ""
-date: 2020-10-06T08:49:15+00:00
-lastmod: 2020-10-06T08:49:15+00:00
+date: 2023-07-24 20:21:07
+lastmod: 2023-07-24 20:21:12
 draft: false
 images: []
-weight: 600
+weight: 140
 ---

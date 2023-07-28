@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
-description: "FriskyMouse is an open-source utility app for Windows that provides mouse cursor highlighter and click indicators as features."
-lead: "Doks ."
+description: "FriskyMouse is a free and open-source utility app for Windows that provides mouse cursor highlighter and click indicators as features."
+lead: "FriskyMouse is an open-source utility app for Windows. It is capable of adding a highly-customizable spotlight around your mouse pointer and rendering animated ripples indicating the location of your mouse clicks." 
 date: 2023-07-24 18:54:29
 lastmod: 2023-07-24 18:54:35
 draft: false
@@ -13,37 +13,17 @@ weight: 100
 toc: true
 ---
 
-## Get started
+## How to Install
 
-There are two main ways to get started with Doks:
+Further information on how to install FriskyMouse, visit the [How to Install →]({{< relref "Installing" >}}) page.
 
-### How to Install
+## Features
 
-Further information on how to installing FriskyMouse.  [How to Install →]({{< relref "Installing" >}})
-
-## Go further
-
-Recipes, Reference Guides, Extensions, and Showcase.
-
-### Recipes
-
-Get instructions on how to accomplish common tasks with Doks. [Recipes →](https://getdoks.org/docs/recipes/project-configuration/)
-
-### Reference Guides
-
-Learn how to customize Doks to fully make it your own. [Reference Guides →](https://getdoks.org/docs/reference-guides/security/)
-
-### Extensions
-
-Get instructions on how to add even more to Doks. [Extensions →](https://getdoks.org/docs/extensions/breadcrumb-navigation/)
-
-### Showcase
-
-See what others have build with Doks. [Showcase →](https://getdoks.org/showcase/electric-blocks/)
+You can find the documentation of the provided features on [FriskyMouse's features →]({{< relref "features" >}}) page.
 
 ## Contributing
 
-Find out how to contribute to FriskyMouse. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
+Find out how to contribute to FriskyMouse. [How to contribute →]({{< relref "how-to-contribute" >}}) page.
 
 ## Help
 

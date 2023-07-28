@@ -1,9 +1,9 @@
 ---
-title : "Prologue"
-description: "Prologue Doks."
+title : "Overview"
+description: "Overview of the FriskyMouse project."
 lead: ""
-date: 2020-10-06T08:48:45+00:00
-lastmod: 2020-10-06T08:48:45+00:00
+date: 2023-07-24 20:21:23
+lastmod: 2023-07-24 20:21:35
 draft: false
 images: []
 weight: 100
