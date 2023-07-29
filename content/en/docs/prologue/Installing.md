@@ -22,8 +22,6 @@ The portable version is available in two forms:
 1. A portable app that requires .NET 7 Desktop runtime to be installed.
 2. A self-contained app that already includes the .NET 7 Desktop runtime.
 
-
-
 If you do not have NET 7 Desktop runtime installed, you can install it from [Download .NET 7.0 download](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) webpage.
 
 {{< details "Why portable version?" >}}
